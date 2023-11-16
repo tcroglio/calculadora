@@ -9,15 +9,10 @@ body {
     background-image: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(136,136,136,1) 50%, rgba(255,255,255,1) 100%);
 }
 
-.aga1 {
-    margin-top: 7%;
-    text-align: center;
-    color: #f7d427;
-}
-
 h1 {
-    text-align: center;
+    margin-top: 7%;
     color: #f7d427;
+    text-align: center;
 }
 
 .calculadora {
