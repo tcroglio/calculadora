@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px 
+}
+
+body {
+    background-image: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(136,136,136,1) 50%, rgba(255,255,255,1) 100%);
+}
+
+.aga1 {
+    margin-top: 7%;
+    text-align: center;
+    color: #f7d427;
+}
+
+h1 {
+    text-align: center;
+    color: #f7d427;
+}
+
+.calculadora {
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 50px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+
+.calculadora p {
+    background-color: white;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    height: 20px;
+}
+
+.botao {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    background-color: rgb(63, 58, 58);
+    color: white;
+    margin: 1px;
+    border: none;
+    transition: 0.30s;
+}
+
+.botao:hover {
+    background-color: black;
+    opacity: 0.7;
+}
+/* RODAPÉ 1 */
+
+.rodape1 {
+    background-color: #f7d427;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 35%;
+    padding: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.rodape1 p {
+    margin-bottom: 25px;
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.icon ion-icon {
+    color: black;
+    margin: 5px;
+    transition: 0.30s;
+}
+
+.icon ion-icon:hover {
+    color: white;
+}
+
+/* RODAPÉ 2 */
+
+.rodape2 {
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: #c9ad20;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: small;
+    align-items: center;
+}
+
+.itens-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    list-style: none;
+}
+
+.itens-list li {
+    margin: 5px;
+}
+
+.itens-list a {
+    text-decoration: none;
+    color: white;
+}
